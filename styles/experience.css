@@ -10,7 +10,7 @@
 3. Header
 4. Menu
 5. Content
-	5.1 Contact
+	5.1 Experience
 
 
 ******************************/
@@ -650,10 +650,9 @@ section
 }
 .main_content_scroll
 {
-	width: 100%;
-	padding-right: 76px;
-	margin-top: 64px;
-	max-height: calc(100% - 183px - 64px);
+	margin-top: 134px;
+	max-height: calc(100% - 183px - 134px);
+	padding-right: 100px;
 }
 .mCS-minimal.mCSB_scrollTools .mCSB_draggerRail, .mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail
 {
@@ -670,43 +669,47 @@ section
 }
 
 /*********************************
-5.1 Contact
+5.1 Experience
 *********************************/
 
-.contact
+.experience
 {
 	width: 100%;
+	padding-bottom: 65px;
 }
-.contact .container-fluid
+.exp_item:not(:last-child)
 {
-	padding-left: 0;
-	padding-right: 0;
+	margin-bottom: 53px;
 }
-.contact_text
+.exp_time
 {
-	margin-top: 25px;
-	padding-right: 22px;
+	width: 181px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #8583e1;
+	line-height: 0.75;
+	text-align: right;
+	white-space: nowrap;
 }
-.contact_form_container
+.exp_content
 {
-	margin-top: 63px;
-	padding-right: 22px;
+	padding-left: 25px;
 }
-.contact_form div
+.exp_title
 {
-	float: left;
-	width: calc((100% - 30px) / 2);
+	font-size: 24px;
+	font-weight: 700;
+	color: #100f3a;
+	line-height: 0.75;
 }
-.contact_form > div:first-child
+.exp_subtitle
 {
-	margin-right: 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #838383;
+	margin-top: 7px;
 }
-.contact_input
+.exp_text
 {
-	width: 100%;
-	height: 40px;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: solid 2px #a5a5a5;
-	margin-bottom
+	margin-top: 18px;
+}

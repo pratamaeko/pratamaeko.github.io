@@ -1,85 +1,361 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Experienceperience</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="vCard template project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/mCustomScrollbar/jquery.mCustomScrollbar.css">
-<link rel="stylesheet" type="text/css" href="styles/experience.css">
-<link rel="stylesheet" type="text/css" href="styles/experience_responsive.css">
-</head>
-<body>
+@charset "utf-8";
+/* CSS Document */
 
-<div class="super_container">
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	.header_button
+	{
+		position: fixed;
+		right: 66px;
+		bottom: -80px;
+		z-index: 10;
+	}
+	.loader_container
+	{
+		width: 50%;
+		margin-bottom: 60px;
+	}
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.general_info
+	{
+		width: 400px;
+	}
+	.general_info_image
+	{
+		height: 400px;
+	}
+	.general_info_content
+	{
+		padding-left: 50px;
+	}
+	.main_content
+	{
+		width: calc(100% - 400px);
+	}
+	.main_title
+	{
+		font-size: 72px;
+	}
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	.milestone
+	{
+		width: 50%;
+		margin-bottom: 60px;
+	}
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.main_nav
+	{
+		display: none !important;
+	}
+	.menu
+	{
+		display: block;
+	}
+	.header_button_2
+	{
+		display: block;
+		left: 15px;
+		right: auto;
+		bottom: 10px;
+	}
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.super_container
+	{
+		width: 100%;
+		height: auto;
+	}
+	.general_info
+	{
+		width: 100%;
+	}
+	.main_content_outer
+	{
+		height: auto;
+	}
+	.general_info_image
+	{
+		width: 473px;
+		height: 473px;
+	}
+	.main_content
+	{
+		width: 100%;
+	}
+	.general_info_content
+	{
+		padding-left: 80px;
+	}
+	.general_info_title
+	{
+		font-size: 24px;
+	}
+	.milestones
+	{
+		padding-bottom: 30px;
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
 	
-	<!-- Header -->
+}
 
-	<header class="header">
-		<div class="header_content d-flex flex-row align-items-center justify-content-start">
-			<div class="logo">Pratama<span>.</span>Eko</div>
-			<div class="main_nav d-flex flex-row align-items-end justify-content-start">
-				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="skills.html">Skills</a></li>
-					<li><a href="experience.html">Experience</a></li>
-					<li><a href="https://www.youracclaim.com/users/pratamaeko/badges">Digital Badge</a></li>
-					<li><a href="https://github.com/pratamaeko">Portfolio</a></li>
-					<li><a href="">Certificate</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-			<!-- Menu -->
-	<div class="menu">
-		<div class="menu_content d-flex flex-row align-items-start justify-content-end">
-			<div class="hamburger ml-auto">Menu</div>
-			<div class="menu_nav text-right">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="skills.html">Skills</a></li>
-					<li><a href="experience.html">Experience</a></li>
-					<li><a href="https://www.youracclaim.com/users/pratamaeko/badges">Digital Badge</a></li>
-					<li><a href="https://github.com/pratamaeko">Portfolio</a></li>
-					<li><a href="">Certificate</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-		</div>
-	</header>
+/************
+5. 1024px
+************/
 
-	<div class="content_container">
-		<div class="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start">
+@media only screen and (max-width: 1024px)
+{
+	
+}
 
-			<!-- General Information -->
-			<div class="general_info d-flex flex-xl-column flex-md-row flex-column">
-				<div>
-					<div class="general_info_image">
-						<div class="background_image" style="background-image:url(images/smith.jpg)"></div>
-					</div>
-				</div>
-				<div class="general_info_content">
-					<div class="general_info_content_inner mCustomScrollbar" data-mcs-theme="minimal-dark">
-						<div class="general_info_title">Tentang Saya</div>
-						<ul class="general_info_list">
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_1.png" alt=""></div>
-								<div class="general_info_text">Nama : <span>Eko Pratama</span></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_16.png" alt=""></div>
-								<div class="general_info_text">Alamat : <span>Indralaya, Sumatera Selatan</span></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_2.png" alt=""></div>
-								<div class="general_info_text">Tanggal lahir : <span>09 April 1996</span></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_3.png" alt=""></div>
-								<div class="general_info_text"><a href="mailto:contact@linque.com?subject=Job_Inquiry">eko_pratama2009@yahoo.com</a></div>
-							</li>
-							<li class="d-flex flex-row align-it
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.general_info_content
+	{
+		padding-left: 50px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 930px)
+{
+	.general_info_image
+	{
+		width: 323px;
+	}
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.logo
+	{
+		font-size: 28px;
+	}
+	.general_info_image
+	{
+		width: 100%;
+		height: calc(100vw - 81px);
+	}
+	.general_info_content
+	{
+		padding-bottom: 40px;
+	}
+	.main_content
+	{
+		padding-left: 52px;
+	}
+	.main_title
+	{
+		font-size: 48px;
+	}
+	.main_subtitle
+	{
+		font-size: 24px;
+	}
+	.main_content_scroll
+	{
+		padding-right: 30px;
+	}
+	.milestone
+	{
+		width: 100%;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	p
+	{
+		font-size: 13px;
+	}
+	.super_container
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 60px;
+	}
+	.header
+	{
+		height: 60px;
+		padding-top: 10px;
+		padding-left: 15px;
+	}
+	.logo
+	{
+		font-size: 24px;
+	}
+	.menu
+	{
+		height: 380px;
+		width: 220px;
+	}
+	.menu.active,
+	.header.scrolled .menu.active
+	{
+		bottom: -310px;
+	}
+	.hamburger
+	{
+		right: 15px;
+		font-size: 14px;
+	}
+	.menu_nav
+	{
+		padding-right: 15px;
+	}
+	.menu_nav ul li a
+	{
+		font-size: 14px;
+	}
+	.general_info_image
+	{
+		height: calc(100vw - 30px);
+	}
+	.main_content
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.main_content_scroll
+	{
+		padding-right: 0;
+	}
+	.main_title_container
+	{
+		height: 153px;
+	}
+	.main_title
+	{
+		font-size: 36px;
+	}
+	.main_subtitle
+	{
+		font-size: 18px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
