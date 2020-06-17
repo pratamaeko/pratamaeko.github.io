@@ -666,6 +666,29 @@ section
 /*********************************
 6. Portfolio
 *********************************/
+.contact_form_container
+{
+	margin-top: 63px;
+	padding-right: 22px;
+}
+.contact_button
+{
+	width: 239px;
+	height: 55px;
+	background: #8583e1;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	margin-top: 26px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
 
 .portfolio_categories
 {
